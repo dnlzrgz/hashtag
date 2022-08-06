@@ -1,6 +1,7 @@
 #!/bin/sh
 
 TITLE=$(gum input --prompt "Post title: " --placeholder "post title")
+FILE=$(gum input --prompt "File: " --value "hashtags.txt")
 
 echo "Pick your hashtags."
 HASHTAGS=$(cat hashtags.txt | gum choose --cursor-prefix "[ ] " --selected-prefix "[✓] " --no-limit)

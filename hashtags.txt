@@ -26,3 +26,8 @@ creativecodeart
 proceduralart
 artxcode
 mathart
+computerart
+audiovisual
+abstractart
+digitalart
+art
